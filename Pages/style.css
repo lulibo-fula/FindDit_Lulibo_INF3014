@@ -1,0 +1,64 @@
+/* General page styling */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0a66c2;
+  color: white;
+}
+
+/* Search input styling */
+.navbar input {
+  padding: 5px;
+}
+
+/* Section spacing */
+.location, .categories, .services, section {
+  padding: 20px;
+}
+
+/* Service cards layout */
+.services {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual card */
+.card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 200px;
+}
+
+/* Image spacing */
+.images img {
+  margin: 5px;
+}
+
+/* Buttons */
+button {
+  padding: 10px;
+  background: #0a66c2;
+  color: white;
+  border: none;
+  margin-top: 10px;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    flex-direction: column;
+  }
+}
